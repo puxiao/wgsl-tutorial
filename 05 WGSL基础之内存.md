@@ -282,9 +282,9 @@ type RTArray = array<vec4<f32>>
 
 在 WGSL 定义了和它们 2 个相关的很多字面类型。
 
-例如表明纹素(颜色)的有 rgba8unorm、rgba8uint、rgba16uint、r32float 等等
+例如 纹素(颜色)相关的有 rgba8unorm、rgba8uint、rgba16uint、r32float 等等
 
-表明纹理深度的有 texture_depth_2d、texture_depth_cube 等等
+纹理深度相关的有 texture_depth_2d、texture_depth_cube 等等
 
 我们先不去深究这些。
 
@@ -294,7 +294,7 @@ type RTArray = array<vec4<f32>>
 
 本文我们只是最粗略、初级得了解了一下 WGSL 中 内存的一些概念。
 
-水平有限，目前理解能够讲解的也就这些了。
+水平有限，目前能够讲解的也就这些了。
 
 WGSL 最核心的事情就是和 内存 打交道，只有慢慢完全了解 内存 相关知识点，才能够清晰理解 WGSL 的核心运行原理。
 
