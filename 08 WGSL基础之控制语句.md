@@ -206,7 +206,7 @@ break 可以跳出 switch、loop、for 循环。
 
 **continue 与 continuing：**
 
-continue 是跳出本次循环，继续进入下一次循环。
+continue 是跳出本次循环的剩余代码，进入下一次循环。
 
 那 WGSL 中的 continuing 是什么意思呢？
 
@@ -266,7 +266,7 @@ discard;
 
 1. switch 中的 fallthrough
 2. loop 循环：for 循环的另外一种形式
-3. break if xxx：只有 xxx 为 true 是才执行 break 跳出
+3. break if xxx：只有 xxx 为 true 时才执行 break 跳出
 4. continuing：当前循环体中最后执行的内容
 5. discard：立即停止当前片元着色器的执行，并丢弃当前片元数据
 
