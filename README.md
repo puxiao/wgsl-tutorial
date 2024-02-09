@@ -49,10 +49,9 @@ Github：https://github.com/puxiao
 
 邮箱：yangpuxiao@gmail.com
 
-微信：78657141(同QQ)
-
-![](https://raw.githubusercontent.com/puxiao/webgpu-tutorial/main/imgs/me_qrcode01.jpg)
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/puxiao/notes/master/imgs/wechat.jpg" alt="wechat.jpg"/>
+</p>
 
 
 <br>
